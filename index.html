@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .wrap{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15, .box16, .box17, .box18, .box19, .box20, .box21, .box22, .box23, .box24, .box25, .box26, .box27, .box28, .box29, .box30, .box31, .box32, .box33, .box34, .box35, .box36, .box37, .box38, .box39, .box40, .box41, .box42, .box43, .box44, .box45, .box46, .box47, .box48, .box49, .box50, .box51, .box52, .box53, .box54, .box55, .box56, .box57, .box58, .box59, .box60, .box61, .box62, .box63, .box64, .box65, .box66, .box67, .box68, .box69, .box70, .box71, .box72, .box73, .box74, .box75, .box76{
+                width: 400px;
+                height: 400px;
+                line-height: 400px;
+                border: 5px solid green;
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: center;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+            .box1:hover{
+                background-color: #F0F8FF;
+                color: red;
+            }
+            .box2:hover{
+                background-color: #FAEBD7;
+                color: green;
+            }
+           .box3:hover{
+                background-color: #00FFFF;
+                color:goldenrod;
+            }
+            .box4:hover{
+                background-color: #7FFFD4;
+                color:orangered;
+            }
+            .box5:hover{
+                background-color: #F0FFFF;
+                color:black;
+            }
+            .box6:hover{
+                background-color: #F5F5DC;
+                color:red;
+            }
+            .box7:hover{
+                background-color: #FFE4C4;
+                color:olivedrab;
+            }
+            .box8:hover{
+                background-color: #000000;
+                color:white;
+            }
+           .box9:hover{
+                background-color: #FFEBCD;
+                color:black;
+            }
+            .box10:hover{
+                background-color: #0000FF;
+                color:white;
+            }
+            .box11:hover{
+                background-color: #8A2BE2;
+                color:white;
+            }
+            .box12:hover{
+                background-color: #A52A2A;
+                color:white;
+            }
+           .box13:hover{
+                background-color: #DEB887;
+                color:white;
+            }
+            .box14:hover{
+                background-color: #5F9EA0;
+                color:white;
+            }
+            .box15:hover{
+                background-color: #7FFF00;
+                color:black;
+            }
+           .box16:hover{
+                background-color: #D2691E;
+                color:whitesmoke;
+            }
+            .box17:hover{
+                background-color: #FF7F50;
+                color:red;
+            }
+            .box18:hover{
+                background-color: #6495ED;
+                color:white;
+            }
+            .box19:hover{
+                background-color: #FFF8DC;
+                color:black;
+            }
+            .box20:hover{
+                background-color: #DC143C;
+                color:white;
+            }
+            .box21:hover{
+                background-color: #00FFFF;
+                color:black;
+            }
+            .box22:hover{
+                background-color: #00008B;
+                color:white;
+            }
+            .box23:hover{
+                background-color: #008B8B;
+                color:white;
+            }
+            .box24:hover{
+                background-color: #B8860B;
+                color:black;
+            }
+            .box25:hover{
+                background-color: #A9A9A9;
+                color:black;
+            }
+            .box26:hover{
+                background-color: #006400;
+                color:white;
+            }
+            .box27:hover{
+                background-color: #BDB76B;
+                color:white;
+            }
+            .box28:hover{
+                background-color: #8B008B;
+                color:orange;
+            }
+            .box29:hover{
+                background-color: #556B2F;
+                color:yellow;
+            }
+            .box30:hover{
+                background-color: #FF8C00;
+                color:black;
+            }
+            .box31:hover{
+                background-color: #9932CC;
+                color:palevioletred;
+            }
+            .box32:hover{
+                background-color: #8B0000;
+                color:black;
+            }
+            .box33:hover{
+                background-color: #E9967A;
+                color:white;
+            }
+            .box34:hover{
+                background-color: #8FBC8F;
+                color:black;
+            }
+            .box35:hover{
+                background-color: #483D8B;
+                color:white;
+            }
+            .box36:hover{
+                background-color: #2F4F4F;
+                color:white;
+            }
+            .box37:hover{
+                background-color: #00CED1;
+                color:black;
+            }
+            .box38:hover{
+                background-color: #9400D3;
+                color:black;
+            }
+            .box39:hover{
+                background-color: #FF1493;
+                color:white;
+            }
+            .box40:hover{
+                background-color: #00BFFF;
+                color:white;
+            }
+            .box41:hover{
+                background-color: #FFD700;
+                color:black;
+            }
+            .box42:hover{
+                background-color: #DAA520;
+                color:black;
+            }
+            .box43:hover{
+                background-color: #808080;
+                color:white;
+            }
+            .box44:hover{
+                background-color: #008000;
+                color:white;
+            }
+            .box45:hover{
+                background-color: #ADFF2F;
+                color:red;
+            }
+            .box46:hover{
+                background-color: #F0FFF0;
+                color:orange;
+            }
+            .box47:hover{
+                background-color: #FF69B4;
+                color:black;
+            }
+            .box48:hover{
+                background-color: #CD5C5C;
+                color:white;
+            }
+            .box49:hover{
+                background-color: #4B0082;
+                color:yellow;
+            }
+            .box50:hover{
+                background-color: #F0E68C;
+                color:black;
+            }
+            .box51:hover{
+                background-color: #7CFC00;
+                color:white;
+            }
+            .box52:hover{
+                background-color: #ADD8E6;
+                color:yellowgreen;
+            }
+            .box53:hover{
+                background-color: #F08080;
+                color:white;
+            }
+            .box54:hover{
+                background-color: #00FF00;
+                color:blue;
+            }
+            .box55:hover{
+                background-color: #32CD32;
+                color:red;
+            }
+            .box56:hover{
+                background-color: #800000;
+                color:white;
+            }
+            .box57:hover{
+                background-color: #FFFF00;
+                color:red;
+            }
+            .box58:hover{
+                background-color: #9ACD32;
+                color:red;
+            }
+            .box59:hover{
+                background-color: #F5DEB3;
+                color:yellow;
+            }
+            .box60:hover{
+                background-color: #EE82EE;
+                color:orangered;
+            }
+            .box61:hover{
+                background-color: #40E0D0;
+                color:black;
+            }
+            .box62:hover{
+                background-color: #FF6347;
+                color:white;
+            }
+            .box63:hover{
+                background-color: #D8BFD8;
+                color:white;
+            }
+            .box64:hover{
+                background-color: #008080;
+                color:yellowgreen;
+            }
+            .box65:hover{
+                background-color: #D2B48C;
+                color:white;
+            }
+            .box66:hover{
+                background-color: #4682B4;
+                color:white;
+            }
+            .box67:hover{
+                background-color: #00FF7F;
+                color:white;
+            }
+            .box68:hover{
+                background-color: #A0522D;
+                color:white;
+            }
+            .box69:hover{
+                background-color: #FFF5EE;
+                color:white;
+            }
+            .box70:hover{
+                background-color: #2E8B57;
+                color:white;
+            }
+            .box71:hover{
+                background-color: #F4A460;
+                color:white;
+            }
+            .box72:hover{
+                background-color: #FA8072;
+                color:white;
+            }
+            .box73:hover{
+                background-color: #8B4513;
+                color:white;
+            }
+            .box74:hover{
+                background-color: #4169E1;
+                color:white;
+            }
+            .box75:hover{
+                background-color: #BC8F8F;
+                color:white;
+            }
+            .box76:hover{
+                background-color: #FF0000;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="box1">AliceBlue 1</div>
+            <div class="box2">AntiqueWhite 2</div>
+            <div class="box3">Aqua 3</div>
+            <div class="box4">Aquamarine 4</div>
+            <div class="box5">Azure 5</div>
+            <div class="box6">Beige 6</div>
+            <div class="box7">Bisque 7</div>
+            <div class="box8">Black 8</div>
+            <div class="box9">BlanchedAlmond 9</div>
+            <div class="box10">Blue 10</div>
+            <div class="box11">BlueViolet 11</div>
+            <div class="box12">Brown 12</div>
+            <div class="box13">BurlyWood 13</div>
+            <div class="box14">CadetBlue 14</div>
+            <div class="box15">Chartreuse 15</div>
+            <div class="box16">Chocolate 16</div>
+            <div class="box17">Coral 17</div>
+            <div class="box18">CornflowerBlue 18</div>
+            <div class="box19">Cornsilk 19</div>
+            <div class="box20">Crimson 20</div>
+            <div class="box21">Aqua 21</div>
+            <div class="box22">DarkBlue 22</div>
+            <div class="box23">DarkCyan 23</div>
+            <div class="box24">DarkGoldenRod 24</div>
+            <div class="box25">DarkGray 25</div>
+            <div class="box26">DarkGreen 26</div>
+            <div class="box27">DarkKhaki 27</div>
+            <div class="box28">DarkMagenta 28</div>
+            <div class="box29">DarkOliveGreen 29</div>
+            <div class="box30">DarkOrange 30</div>
+            <div class="box31">DarkOrchid 31</div>
+            <div class="box32">DarkRed 32</div>
+            <div class="box33">DarkSalmon 33</div>
+            <div class="box34">DarkSeaGreen 34</div>
+            <div class="box35">DarkSlateBlue 35</div>
+            <div class="box36">DarkSlateGray 36</div>
+            <div class="box37">DarkTurquoise 37</div>
+            <div class="box38">DarkViolet 38</div>
+            <div class="box39">DeepPink 39</div>
+            <div class="box40">DeepSkyBlue 40</div>
+            <div class="box41">Gold 41</div>
+            <div class="box42">GoldenRod 42</div>
+            <div class="box43">Gray 43</div>
+            <div class="box44">Green 44</div>
+            <div class="box45">GreenYellow 45</div>
+            <div class="box46">HoneyDew 46</div>
+            <div class="box47">HotPink 47</div>
+            <div class="box48">IndianRed 48</div>
+            <div class="box49">Indigo 49</div>
+            <div class="box50">Khaki 50</div>
+            <div class="box51">LawnGreen 51</div>
+            <div class="box52">LightBlue 52</div>
+            <div class="box53">LightCoral 53</div>
+            <div class="box54">Lime 54</div>
+            <div class="box55">LimeGreen 55</div>
+            <div class="box56">Maroon 56</div>
+            <div class="box57">Yellow 57</div>
+            <div class="box58">YellowGreen 58</div>
+            <div class="box59">Wheat 59</div>
+            <div class="box60">Violet 60</div>
+            <div class="box61">Turquoise 61</div>
+            <div class="box62">Tomato 62</div>
+            <div class="box63">Thistle 63</div>
+            <div class="box64">Teal 64</div>
+            <div class="box65">Tan 65</div>
+            <div class="box66">SteelBlue 66</div>
+            <div class="box67">SpringGreen 67</div>
+            <div class="box68">Sienna 68</div>
+            <div class="box69">SeaShell 69</div>
+            <div class="box70">SeaGreen 70</div>
+            <div class="box71">SandyBrown 71</div>
+            <div class="box72">Salmon 72</div>
+            <div class="box73">SaddleBrown 73</div>
+            <div class="box74">RoyalBlue 74</div>
+            <div class="box75">RosyBrown 75</div>
+            <div class="box76">Red 76</div>
+        </div>
+        
+    </body>
+</html>
